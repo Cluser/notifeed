@@ -1,0 +1,19 @@
+<div class="client-panel-filters">
+    <div class="filter-hide-button" (click)="filtersHidden = !filtersHidden">Filtry</div>
+    <div class="filter-list2" *ngIf="!filtersHidden">
+      <div class="filter-group-button" (click)="typesHidden = !typesHidden">Typ</div>
+      <div class="filter-list" *ngIf="!typesHidden">
+        <div *ngFor="let type of filters.type" [class.filter-button-checked]="type.value === true" [class.filter-button-unchecked]="type.value === false" (click)="type.value = !type.value">{{type.name}}</div>
+      </div>
+      <div class="filter-group-button" (click)="statusesHidden = !statusesHidden">Status</div>
+      <div class="filter-list" *ngIf="!statusesHidden">
+        <div *ngFor="let status of filters.status" [class.filter-button-checked]="status.value === true" [class.filter-button-unchecked]="status.value === false" (click)="status.value = !status.value">{{status.name}}</div>
+      </div>
+      <div class="filter-group-button" (click)="timeRangeHidden = !timeRangeHidden">Zakres czasowy</div>
+      <div class="filter-group-button" (click)="devicesHidden = !devicesHidden">Urządzenie</div>
+      <div class="filter-list" *ngIf="!devicesHidden">
+        <div *ngFor="let device of filters.device" [class.filter-button-checked]="device.value === true" [class.filter-button-unchecked]="device.value === false" (click)="device.value = !device.value">{{device.name}}</div>
+      </div>
+</div>
+
+

@@ -1,0 +1,87 @@
+@import '../../shared/styles/global.scss';
+
+#client-panel-notification {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: $FontNormal;
+
+    @extend .noselect
+}
+
+#client-panel-notification-bg {
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    left: 5%;
+    background-color: #262121;
+}
+
+#client-panel-notification-img {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 0%;
+    border-radius: 50%;
+}
+
+#client-panel-notification-type-bg {
+    position: absolute;
+    width: 70%;
+    height: 25%;
+    top: 30%;
+    left: 5%;
+}
+
+#client-panel-notification-device {
+    position: absolute;
+    top: 7%;
+    left: 11%;
+    font-size: 1.2vh;
+    color: white;
+}
+
+#client-panel-notification-type {
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    font-size: 1.5vh;
+    color: black;
+    font-weight: bold;
+}
+
+#client-panel-notification-description {
+    position: absolute;
+    width: 60%;
+    top: 57%;
+    left: 11%;
+    font-size: 1.2vh;
+    color: white;
+}
+
+#client-panel-notification-date {
+    position: absolute;
+    top: 35%;
+    right: 3%;
+    font-size: 1.2vh;
+    color: white;
+}
+
+#client-panel-notification-time {
+    position: absolute;
+    top: 50%;
+    right: 4.5%;
+    font-size: 1.2vh;
+    color: white;
+}
+
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }

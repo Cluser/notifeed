@@ -1,0 +1,16 @@
+<div id="client-panel">
+  <div id="left-section">
+    <app-client-panel-filters [filters] = "filters"></app-client-panel-filters>
+  </div>
+
+  <div id="center-section">
+    <div class="notification-item" *ngFor="let notification of notifications">
+      <app-client-panel-notification [notification] = "notification"></app-client-panel-notification>
+    </div>
+  </div>
+
+  <div id="right-section">
+    
+  </div>
+</div>
+

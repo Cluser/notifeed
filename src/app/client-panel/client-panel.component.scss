@@ -1,0 +1,34 @@
+#client-panel {
+    width: 100%;
+    height: 100%;
+    background: rgb(34,43,88);
+    background: linear-gradient(0deg, rgba(34,43,88,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#left-section {
+    position: absolute;
+    left: 0%;
+    width: 25%;
+    height: 100%;
+}
+
+#center-section {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+}
+
+#right-section {
+    position: absolute;
+    left: 75%;
+    width: 25%;
+    height: 100%; 
+}
+
+.notification-item {
+    width: 100%;
+    height: 10%;
+    min-height: 50px;
+    margin-bottom: 1%;
+}
