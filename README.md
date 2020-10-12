@@ -13,7 +13,7 @@ Notification dashboard built on Angular 10 framework.
 
 ## Images
 
-
+![alt text](https://i.ibb.co/HrD8jMz/notifeed.jpg)
 
 ## Launching of project
 
