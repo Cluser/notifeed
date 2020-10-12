@@ -2,6 +2,7 @@
 # Notifeed
 
 Notification dashboard built on Angular 10 framework.
+Intended to inform maintenance, logistic department or managment in factories about alarms, warnings or requests.
 
 ## What you can find here?
 
