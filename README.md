@@ -3,6 +3,7 @@
 
 Notification dashboard built on Angular 10 framework.
 Intended to inform maintenance, logistic department or managment in factories about alarms, warnings or requests.
+This application is being built with IIoT in mind.
 
 ## What you can find here?
 
