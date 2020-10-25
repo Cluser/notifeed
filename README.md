@@ -6,7 +6,7 @@ Intended to inform maintenance, logistic department or managment in factories ab
 This application is being built with IIoT in mind.
 
 ## Demo
-https://stackblitz.com/github/cluser/notifeed
+https://jvmipzwrn.github.stackblitz.io
 
 ## What you can find here?
 
