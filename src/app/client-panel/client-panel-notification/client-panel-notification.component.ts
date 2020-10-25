@@ -1,5 +1,5 @@
-import { Component, OnInit, Input, OnChanges } from '@angular/core';
-import { INotification } from 'src/app/shared/models/inotification';
+import { Component, OnInit, Input } from '@angular/core';
+import { INotification } from '../../shared/models/inotification';
 
 @Component({
   selector: 'app-client-panel-notification',
