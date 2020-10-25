@@ -5,6 +5,9 @@ Notification dashboard built on Angular 10 framework.
 Intended to inform maintenance, logistic department or managment in factories about alarms, warnings or requests.
 This application is being built with IIoT in mind.
 
+## Demo
+https://stackblitz.com/github/cluser/notifeed
+
 ## What you can find here?
 
 :white_check_mark: 
