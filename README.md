@@ -8,13 +8,6 @@ This application is being built with IIoT in mind.
 ## Demo
 https://jvmipzwrn.github.stackblitz.io
 
-## What you can find here?
-
-:white_check_mark: 
-
-:white_check_mark: 
-
-
 
 ## Images
 
